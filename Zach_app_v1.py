@@ -1,6 +1,14 @@
 #%%
 
 #required imports are in requirements.txt
+import yfinance as yf
+import pandas as pd 
+import numpy as np
+import matplotlib.pyplot as plt
+import plotly.express as px
+import streamlit as st 
+import plotly.graph_objects as go
+
 
 # first set the page configuration as having this code below returned an error
 st.set_page_config(page_title="Expected Portfolio Returns", layout="wide")
